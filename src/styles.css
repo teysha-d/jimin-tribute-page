@@ -95,7 +95,7 @@ section.secondary {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/south-korea.png");
+    url("../images/jimin-header-2.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -119,7 +119,7 @@ header h2 {
 }
 
 header h3 {
-  font-weight: 900;
+  font-weight: 300;
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 5px;
