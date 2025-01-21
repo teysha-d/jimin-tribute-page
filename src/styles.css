@@ -310,3 +310,23 @@ footer a {
 .zoom-in {
   animation: zoomIn 1s ease-out;
 }
+
+.twitter-tweet {
+  max-width: 550px; /* Set a maximum width for all tweets */
+  margin: 0 auto; /* Center the tweets */
+  padding: 10px; /* Add padding for a clean look */
+  border: 1px solid #e1e8ed; /* Optional: Add a light border */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  background-color: #f5f8fa; /* Optional: Set a light background color */
+}
+
+.twitter-tweet iframe {
+  width: 100% !important; /* Ensure the embedded tweet iframe fills the blockquote */
+}
+
+@media (max-width: 768px) {
+  .twitter-tweet {
+    max-width: 100%; /* Make tweets responsive on smaller screens */
+    padding: 5px;
+  }
+}
